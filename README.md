@@ -5,7 +5,11 @@ Using decision tree algorithms, I predict which medication patients respond to b
 The table drug200.csv contains data about a set of patients, together with the 5 medications they reacted to: Drug A, Drug B, Drug C, Drug x and Drug y.
 
 With decision trees, I build a model to find out which drug might be appropriate for a future patient. 
-I also assess the model accuracy.
+I also assess the model accuracy and visualize the decision tree with graphviz.
+
+# Notice: You might need to install the pydotplus and graphviz libraries if you have not installed these before:
+conda install -c conda-forge pydotplus -y
+conda install -c conda-forge python-graphviz -y
 
 
 
