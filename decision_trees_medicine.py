@@ -48,4 +48,5 @@ print(y_testset[:5])
 print("DecisionTrees's Accuracy (between 0 and 1): ", metrics.accuracy_score(y_testset, predTree))
 
 #visualize the tree
+#After executing the code below, a file named 'tree.png' would be generated which contains the decision tree image.
 export_graphviz(drugTree, out_file='tree.dot', filled=True, feature_names=['Age', 'Sex', 'BP', 'Cholesterol', 'Na_to_K'])
