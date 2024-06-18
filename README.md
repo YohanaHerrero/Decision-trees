@@ -1,3 +1,16 @@
+For decision_trees_medicine.py:
+
+Using decision tree algorithms, I predict which medication patients respond to based on their characteristics (multiclass classifier).
+
+The table drug200.csv contains data about a set of patients, together with the 5 medications they reacted to: Drug A, Drug B, Drug C, Drug x and Drug y.
+
+With decision trees, I build a model to find out which drug might be appropriate for a future patient. 
+I also assess the model accuracy.
+
+
+
+For decision_trees_music.py:
+
 Using decision tree algorithms, I predict which music genre individuals like based on age and gender.
 
 The table music.csv contains the gender and age of several individuals, which is used to guess which music genre they prefer.
